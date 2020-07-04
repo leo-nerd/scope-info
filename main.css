@@ -1,5 +1,5 @@
 body {
-	text-align: center;
+	/*text-align: center;*/
 }
 
 header {
@@ -9,16 +9,49 @@ header {
 
 nav {
 	padding: 2em;
+	text-align: center;
 }
 
 h1 {
-
+	text-align: center;
 }
 
-.main-text {
+nav > a {
 	padding: 1em;
 }
 
+.main-text {
+	text-align: center;
+	margin: auto;
+	max-width: 1000px;
+	padding: 2em;
+}
+
 .subtitle {
-	
+	text-align: center;
+}
+
+.exhibitions {
+	margin: auto;
+	max-width: 1000px;
+	padding: 2em;
+}
+
+p {
+	text-align: justify;
+	width: 100%;
+	padding-top: 0.5em;
+}
+
+iframe {
+	padding: 1em;
+	margin-top: 2em;
+}
+
+h1 > a {
+	text-decoration: none;
+}
+
+.exhibition {
+	padding-bottom: 2em;	
 }
