@@ -1,15 +1,27 @@
+html {
+	background: #eee;
+}
+
 body {
 	/*text-align: center;*/
+	font-family: 'Yantramanav', sans-serif;
 }
 
 header {
 	/*text-align: center;*/
 	padding: 2em;
+	/*color: grey;*/
 }
 
 nav {
 	padding: 2em;
 	text-align: center;
+	/*color: #555*/
+}
+
+nav > a {
+	text-decoration: none;
+	color: #555;
 }
 
 h1 {
@@ -21,6 +33,7 @@ nav > a {
 }
 
 .main-text {
+	font-weight: 300;
 	text-align: center;
 	margin: auto;
 	max-width: 1000px;
@@ -29,6 +42,8 @@ nav > a {
 
 .subtitle {
 	text-align: center;
+	font-weight: 300;
+	color: #555;
 }
 
 .exhibitions {
@@ -43,6 +58,10 @@ p {
 	padding-top: 0.5em;
 }
 
+/*p::first-letter {
+	font-size: 130%;
+}*/
+
 iframe {
 	padding: 1em;
 	margin-top: 2em;
@@ -50,6 +69,7 @@ iframe {
 
 h1 > a {
 	text-decoration: none;
+	color: #555;
 }
 
 .exhibition {
